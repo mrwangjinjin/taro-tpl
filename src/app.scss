@@ -1,0 +1,12 @@
+@import "./assets/styles/mixin";
+@import "./assets/styles/variable";
+
+@mixin screen($width, $height) {
+	display: flex;
+	flex-direction: column;
+	width: $width;
+	height: $height;
+}
+.page-container {
+	@include screen(100%, 100%);
+}

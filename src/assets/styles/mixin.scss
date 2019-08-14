@@ -1,0 +1,6 @@
+@mixin screen($width, $height) {
+	display: flex;
+	flex-direction: column;
+	width: $width;
+	height: $height;
+}
